@@ -49,4 +49,14 @@ Add Customization and expand the game:
   - Include additional items (e.g., a sword, a compass).
   - Use nested conditionals and logical operators to create complex outcomes.
 
-*/
+*/if(choice === "mountains" && hasTorch); {
+ console.log("You pick up a sword. This will help you defend against wild animales.");
+} else if (Choice === "mountains" && !hasMap);
+console.log("You find a compass. It makes navigating the forest easier.");
+if(choice === "village") {
+  if (hasTorch && hasSword) {
+  console.log("You bravely navigate the dark mountains and fend off any wild animales");
+  }else if (hasTorch && !hasSword) {
+  console.log("You safely move through the mountains but feel vulnerable without a weapon");
+  } 
+
